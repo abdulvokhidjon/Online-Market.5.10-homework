@@ -57,7 +57,7 @@ function displayProductDetails(product) {
       <h1 class="text-3xl font-bold mb-4">${product.title}</h1>
       <img src="${product.thumbnail}" alt="${product.title}" class="w-full h-auto rounded-lg mb-4" />
       <p class="text-lg mb-2"><strong>Description:</strong> ${product.description}</p>
-        <p class="text-lg mb-2"><strong>Description:</strong> ${product.rating}</p>
+        <p class="text-lg mb-2"><strong>Rating:</strong> ${product.rating}</p>
       <p class="text-lg mb-2"><strong>Price:</strong> $${product.price}</p>
       <p class="text-lg mb-2"><strong>Category:</strong> ${product.category}</p>
       <p class="text-lg mb-2"><strong>Brand:</strong> ${product.brand}</p>
