@@ -1,0 +1,50 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card img {
+  transition: transform 0.2s;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.input-bordered {
+  border-color: #d1d5db;
+}
+
+.input-bordered:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+h1
+
+.card-title{
+  color:black
+  hover:#2563eb
+}
+h1, h2, p{
+  color:black
+}
